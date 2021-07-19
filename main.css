@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.image-container
+{
+    background: rgb(202, 186, 186);
+    position: absolute;
+    height: 100vh;
+    min-width: 1180px;
+    margin-left: 171px;
+}
+.sidebar{
+    position: fixed;
+    height: 125vh;
+    background: black;
+    width: 170px;
+    display: inline-block;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.logo img{
+    height: 12vh;
+    border-radius: 10px;
+}
+.logo h1{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0px 15px;
+}
+header{
+    padding: 20px 0px;
+}
+.nav{
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.nav ul li{
+    list-style: none;
+    padding: 15px 0px;
+    text-align: center;
+    border-bottom: 1px solid rgb(167,159,159);
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover{
+    font-weight: bolder;
+}
+.icons{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.icons i{
+    padding: 7px 7px;
+    color: white;
+    border: 1px solid rgb(167,159,159);
+    cursor: pointer;
+}
+.icons i:hover{
+    background: white;
+    color:black;
+}
+.footer{
+    text-align: center;
+    color:white;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.developer{
+    position: absolute;
+    height: 100%;
+    margin-top: 300px;
+    margin-left: 700px;
+    padding: 0px 50px;
+}
+.developer h1{
+    font-size: 80px;
+}
+.developer p{
+    margin-top: 20px;
+    text-align: center;
+}
